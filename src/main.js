@@ -13,7 +13,7 @@ if (okayy) {
             intersecting ? element.classList.add("anim1") : element.classList.remove("anim1");
             
         });
-    }, {threshold:1});
+    }, {rootMargin: "-50px"});
     
         
         
