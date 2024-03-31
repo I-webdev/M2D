@@ -1,10 +1,10 @@
 const firstPageHeaderOne = document.querySelector(".about-first-person");
 
 const firstPageHeaderTwo = document.querySelector(".about-second-person");
-const okayy = document.querySelector(".contact-form");
-const butto = document.querySelectorAll(".service-button");
+const contacts = document.querySelector(".contact-form");
+const buttons = document.querySelectorAll(".service-button");
 
-if (okayy) {
+if (contacts) {
     const ob = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             const intersecting = entry.isIntersecting;
@@ -13,11 +13,11 @@ if (okayy) {
             intersecting ? element.classList.add("anim1") : element.classList.remove("anim1");
             
         });
-    }, {threshold:1});
+    }, {rootMargin: "-50px"});
     
         
         
-            ob.observe(okayy);
+            ob.observe(contacts);
 
     
 } else if (firstPageHeaderOne && firstPageHeaderTwo)
@@ -44,9 +44,9 @@ if (okayy) {
             intersecting ? element.classList.add("anim") : element.classList.remove("anim");
             
         });
-    }, {rootMargin: "-50px"});
-    butto.forEach(butto => {
-        observer.observe(butto);
+    }, {rootMargin: "-5px"});
+    buttons.forEach(buttons => {
+        observer.observe(buttons);
        
     })
     
