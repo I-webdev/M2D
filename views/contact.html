@@ -61,8 +61,8 @@
 <div class="contact-body" id="about">
 
     <div class="contact-container">
-        <h1 class="ps-3">Contact Form</h1>
-    <form class="contact-form shadow-lg rounded px-3 pt-3 mb-5" action="mailto:info@m2datai.com.ng">
+        <h1 class="ps-3 roboto-regular">Contact Form</h1>
+    <form class="contact-form shadow-lg rounded px-3 pt-3 mb-5" method="post" action="mailto:info@m2datai.com.ng?subject=Hello M2 Data AI" enctype="text/plain">
 
         <div class="mb-3">
             <label for="name">Name:</label>
@@ -83,7 +83,7 @@
         <div class="mb-4">
           
             <textarea placeholder="Your Message..." name="message" id="" cols="" rows="7"></textarea> <br>
-            <button class="contact-btn px-3 shadow-lg" type="submit">Submit</button>
+            <input class="contact-btn px-3 shadow-lg" type="submit" name="Submit" />
         </div>
         
         
