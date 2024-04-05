@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    
+  <!----------font awesome----------->
+  
+  <script src="https://kit.fontawesome.com/2f110a7c07.js" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- bootstrap -->
 
@@ -36,9 +42,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Services</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">
                 Contact Us
@@ -46,7 +50,7 @@
              </li>
              <li class="nav-item">
                <a class="nav-link" href="./about_us.html">
-                 About Us
+                 Staff
                </a>
              </li>
           </ul>
@@ -62,39 +66,58 @@
 
     <div class="contact-container">
         <h1 class="ps-3 roboto-regular">Contact Form</h1>
-    <form class="contact-form shadow-lg rounded px-3 pt-3 mb-5" method="post" action="mailto:info@m2datai.com.ng?subject=Hello M2 Data AI" enctype="text/plain">
+    <div class="contact-form shadow-lg rounded px-3 py-4 mb-5">
+      
+      <div class="contact-form-centering">
+        <div class="mb-3">
+            <i class="fa-solid fa-phone mb-3"></i>
+            <ul>
+              <li class="mb-3">
+                +2348138338932
+              </li>
+              <li>
+                +2348062208275
+              </li>
+            </ul>
+        </div>
 
-        <div class="mb-3">
-            <label for="name">Name:</label>
-            <input type="text" name="name">
-        </div>
-
         
         <div class="mb-3">
-            <label for="email">Email:</label>
-            <input type="email" name="email">
+          <i class="fa-solid fa-envelope mb-3"></i>
+          <ul>
+            <li class="mb-3">
+              m2dataic@gmail.com
+            </li>
+            <li>
+              info@m2datai.com.ng
+            </li>
+          </ul>
         </div>
         
         <div class="mb-3">
-            <label for="phone number">Phone:</label>
-            <input type="number" name="phone-number">
+          <i class="fa-solid fa-location-dot mb-3"></i>
+          <ul>
+            <li class="mb-3">
+              5, OLUKOTUN AVENUE, IDI OROGBO, AKOBO, IBADAN, OYO STATE, NIGERIA
+            </li>
+            <li>
+              27, HOSPITAL ROAD, OFFIN, OPPOSITE IPOJI HEALTH CENTER, SAGAMU, OGUN STATE, NIGERIA
+            </li>
+            
+          </ul>
+        
         </div>
         
-        <div class="mb-4">
+        
           
-            <textarea placeholder="Your Message..." name="message" id="" cols="" rows="7"></textarea> <br>
-            <input class="contact-btn px-3 shadow-lg" type="submit" name="Submit" />
-        </div>
-        
-        
-          
-    </form>
+    </div>
+    </div>
     </div>
 </div>    
 
    <!----------------------------------------------- footer--------------------------------------------------------------->
    <footer class="py-3">
-    <p>Copyright M2 Data Analytics & insights. All rights reserved</p>
+    <p id="foot">Copyright M2 Data Analytics & insights. All rights reserved</p>
   </footer>
 
     <!-----------------------------------------------Bootstrap with popper js------------------------------------------------>

@@ -5,6 +5,10 @@
   font-weight: 500;
   font-style: normal;
 }
+
+p{
+  line-height: 1.8;
+}
 body {
     font-size: 15pt;
 }
@@ -122,9 +126,8 @@ footer{
   color: #174713;
 }
 
-p{
+.tab-pane > p{
   width: 85vw;
-  line-height: 1.8;
 }
 
 
@@ -176,7 +179,16 @@ footer > p{
 
 .contact-body{
   color: #435334;
-  padding-top: 70px;
+  padding-top: 80px;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+i{
+  background-color: #435334;
+  color: white;
+  border: solid 1px;
+  padding:20px;
+  border-radius:50%;
 }
 
 .contact-container{
@@ -187,10 +199,25 @@ footer > p{
 }
 
 .contact-form{
+  width: fit-content;
   opacity: 0;
   background-color: whitesmoke;
+
+  
+}
+.contact-form-centering{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-form-centering > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:250px;
 }
 
 .anim1{
@@ -210,6 +237,8 @@ footer > p{
   }
   
 }
+
+
 .contact-btn{
   color: white;
   background-color: #435334;
