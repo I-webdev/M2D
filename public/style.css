@@ -36,12 +36,12 @@ body {
 /*************************************section-one style**************************************************************************/
 .custom-shape-divider-bottom-1713439624 {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .custom-shape-divider-bottom-1713439624 svg {
@@ -52,10 +52,10 @@ body {
 }
 
 .custom-shape-divider-bottom-1713439624 .shape-fill {
-  fill: #435334;
+  fill: white;
 }
 .section-one{
-  position: relative;
+ 
   color: #435334;
   min-height: 90vh;
   display: flex;
@@ -88,7 +88,7 @@ body {
 }
 
 .custom-shape-divider-top-1713440037 .shape-fill {
-  fill: #FFFFFF;
+  fill: white;
 }
 
 
@@ -167,6 +167,7 @@ ul.nav-pills > li.nav-item > button.service-button{
 
 /********************************** section-three ************************************/
 .section-three{
+  position: relative;
   color: #435334;
 }
 
