@@ -21,6 +21,13 @@ body {
 .navbar-nav .nav-item > a.nav-link:active{
   color: #78d422;
 }
+.contact-us-special{
+  background-color: #9f1943;
+  border-radius: 20px;
+}
+.navbar-nav .contact-us-special > a.nav-link{
+  color: white;
+}
 
 .logo{
   width: 35px;
@@ -232,13 +239,14 @@ padding: 2%;
   color: #435334;
 }
 .register-button{
-  border:1px solid #435334;
+  border:1px solid #9f1943;
   border-radius: 20px;
-  color: #435334;
+  background-color: #9f1943;
+  color: white;
 }
 .register-button:active{
-  color: white;
-  background-color: #435334;
+  color: #435334;
+  background-color: white ;
 }
 /* .card-img-top{
   height: 300px;
@@ -346,7 +354,7 @@ i{
   padding-inline: 20px;
   padding-block: 8px;
   color: white;
-  background-color: #435334;
+  background-color: #9f1943;
   border: 1px solid white;
   border-radius: 20px;
 }
