@@ -34,8 +34,28 @@ body {
   height: 35px;
 }
 /*************************************section-one style**************************************************************************/
+.custom-shape-divider-bottom-1713439624 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1713439624 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 72px;
+}
+
+.custom-shape-divider-bottom-1713439624 .shape-fill {
+  fill: #435334;
+}
 .section-one{
+  position: relative;
   color: #435334;
   min-height: 90vh;
   display: flex;
@@ -46,9 +66,29 @@ body {
 }
 /************************************section-two style*********************************************************************************/
 .section-two{
-  
+  position: relative;
   color: white;
   background-color: #435334;
+}
+.custom-shape-divider-top-1713440037 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1713440037 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 30px;
+}
+
+.custom-shape-divider-top-1713440037 .shape-fill {
+  fill: #FFFFFF;
 }
 
 
